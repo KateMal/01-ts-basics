@@ -1,5 +1,11 @@
-const product: { readonly id: number; title: string; description?:string} = {
- id: 1,
+type Product = {
+  readonly id: number;
+  title: string;
+  description?: string;
+};  
+
+const product: Product = {
+  id: 1,
   title: "Tablet",
   description: "Compact and fast",
 };

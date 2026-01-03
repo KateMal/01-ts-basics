@@ -2,12 +2,12 @@ const usernames:string[] = ["alice", "bob", "charlie"];
 
 const ratings:number[] = [4.5, 3.8, 5];
 
-interface User {
+interface products {
   id: number;
   title: string;
 }
 
-const products: User[] = [
+const products: products[] = [
   { id: 1, title: "Phone" },
   { id: 2, title: "Laptop" },
 ];
